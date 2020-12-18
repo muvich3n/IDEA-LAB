@@ -1177,8 +1177,10 @@ hr {
     margin: 0 auto;
     align-items: center;
     overflow: hidden;
-    width: 780px;
-    height: 430px;
+    width: auto;
+    max-width: 780px;
+    height: auto;
+    max-height: 700px;
 
 
 
@@ -2236,7 +2238,7 @@ hr {
 .page-section:not(.fg-white) h1,
 .page-section:not(.fg-white) h2,
 .page-section:not(.fg-white) h3 {
-    color: #6b6872;
+    color: #383340;
 }
 
 
