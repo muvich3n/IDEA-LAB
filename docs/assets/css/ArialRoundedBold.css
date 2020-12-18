@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ArialRoundedBold';
+    src: url('ArialRoundedBold.eot');
+    src: url('ArialRoundedBold.eot') format('embedded-opentype'),
+         url('ArialRoundedBold.woff2') format('woff2'),
+         url('ArialRoundedBold.woff') format('woff'),
+         url('ArialRoundedBold.ttf') format('truetype'),
+         url('ArialRoundedBold.svg#ArialRoundedBold') format('svg');
+}
