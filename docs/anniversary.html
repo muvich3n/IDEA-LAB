@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>SJTU IDEA LAB</title>
+
 </head>
 
 <body>
@@ -13,6 +14,18 @@
             <img src="/assets/models/demo-thumbnail.jpg" width=800 height=800>
         </a>
     </div>
+
+    <script type="text/javascript">
+        const linkElement = document.getElementById("CustomAction");
+        linkElement.addEventListener("message", function(event) {
+            if (event.data == "_apple_ar_quicklook_button_tapped") {
+                // handle the user tap.   
+                window.open("https://register.alumni.sjtu.edu.cn/hallAction", '_blank')
+            }
+        }, false);
+        }
+
+    </script>
 
 </body>
 
