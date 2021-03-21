@@ -62,7 +62,8 @@
         document.getElementById("CustomAction")
             .addEventListener("message", function(event) {
                 if (event.data == "_apple_ar_quicklook_button_tapped") {
-                    // handle the user tap.   
+                    // handle the user tap. 
+                    // 设置延迟否则无效
                     setTimeout(function() {
                         //window.location.href = "https://developer.apple.com/documentation/arkit/adding_an_apple_pay_button_or_a_custom_action_in_ar_quick_look";
                         window.location.href = "https://register.alumni.sjtu.edu.cn/hallAction";
